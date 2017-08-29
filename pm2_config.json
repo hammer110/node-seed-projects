@@ -1,0 +1,9 @@
+{
+  "apps" : [{
+    "name"        : "pm2",
+    "script"      : "bin/www",
+    "watch"       : true,
+    "exec_interpreter" : "babel-node",
+    "log_date_format": "YYYY - MM - DD HH: mm Z"
+  }]
+}
