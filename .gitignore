@@ -3,3 +3,4 @@ package-locak.json
 .vscode/
 access.log
 cert/
+config/api.js

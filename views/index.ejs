@@ -1,11 +1,91 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>万卡商城</title>
+    <meta name="keywords" content="久富时代,久富金融,久富微金融,久富理财,久富官网,玖富时代,玖富金融,玖富微金融,玖富理财,玖富官网">
+    <meta name="description" content="玖富9Fbank.com--中国领先个人微金融服务平台！微理财，微信贷，云银行，专注小微信贷与个人金融服务！">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta name="format-detection" content="telephone = no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="万卡商城">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="msapplication-TileColor" content="#ff9230">
+    <script type="text/javascript">
+      !function(a,b){function c(){var b=f.getBoundingClientRect().width;b/i>540&&(b=540*i);var c=b/10;f.style.fontSize=c+"px",k.rem=a.rem=c}var d,e=a.document,f=e.documentElement,g=e.querySelector('meta[name="viewport"]'),h=e.querySelector('meta[name="flexible"]'),i=0,j=0,k=b.flexible||(b.flexible={});if(g){var l=g.getAttribute("content").match(/initial\-scale=([\d\.]+)/);l&&(j=parseFloat(l[1]),i=parseInt(1/j))}else{if(h){var m=h.getAttribute("content");if(m){var n=m.match(/initial\-dpr=([\d\.]+)/),o=m.match(/maximum\-dpr=([\d\.]+)/);n&&(i=parseFloat(n[1]),j=parseFloat((1/i).toFixed(2))),o&&(i=parseFloat(o[1]),j=parseFloat((1/i).toFixed(2)))}}}if(!i&&!j){var p=a.navigator.userAgent,q=(!!p.match(/android/gi),!!p.match(/iphone/gi)),r=q&&!!p.match(/OS 9_3/),s=a.devicePixelRatio;i=q&&!r?s>=3&&(!i||i>=3)?3:s>=2&&(!i||i>=2)?2:1:1,j=1/i}if(f.setAttribute("data-dpr",i),!g){if(g=e.createElement("meta"),g.setAttribute("name","viewport"),g.setAttribute("content","initial-scale="+j+", maximum-scale="+j+", minimum-scale="+j+", user-scalable=no"),f.firstElementChild){f.firstElementChild.appendChild(g)}else{var t=e.createElement("div");t.appendChild(g),e.write(t.innerHTML)}}a.addEventListener("resize",function(){clearTimeout(d),d=setTimeout(c,300)},!1),a.addEventListener("pageshow",function(a){a.persisted&&(clearTimeout(d),d=setTimeout(c,300))},!1),"complete"===e.readyState?e.body.style.fontSize=12*i+"px":e.addEventListener("DOMContentLoaded",function(){e.body.style.fontSize=12*i+"px"},!1),c(),k.dpr=a.dpr=i,k.refreshRem=c,k.rem2px=function(a){var b=parseFloat(a)*this.rem;return"string"==typeof a&&a.match(/rem$/)&&(b+="px"),b},k.px2rem=function(a){var b=parseFloat(a)/this.rem;return"string"==typeof a&&a.match(/px$/)&&(b+="rem"),b}}(window,window.lib||(window.lib={}));
+    </script>
+    <script src="https://wx-cdn.9fbank.com/static/public/js/fastclick.min.js"></script>
+    <script type="text/javascript">
+    if ('addEventListener' in document) {document.addEventListener('DOMContentLoaded', function() {FastClick.attach(document.body);}, false);}
+    </script>
+    <link rel="stylesheet" href="/stylesheets/index.css">
+    <link rel="stylesheet" href="//wx-cdn.9fbank.com/static/public/css/common.css?v=1.0.4">
+    <link rel="stylesheet" href="//wxtest.9fbank.com/h5/static/css/app.6096d97db5b2a515d4a32b17096d413c.css">
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div class="wrap">
+      <header class="head-cont flex">
+        <a class="cell_0"></a>
+        <span class="tit cell_1">
+          <span id="oneCardTitle">玖富万卡</span>
+        </span>
+        <span class="empty_r cell_0 icon_noNews"></span>
+      </header>
+      <section>
+        <div class="tl_indexBanner">
+          <div class="tl_indexCard">
+              <div class="myFlametrousform">
+                <p class="flame">
+                  点亮火眼分
+                  <i class="icon-flame1"></i>
+                </p>
+              </div>
+            <div class="tl_wanCardIco">
+              <img src="data:image/png;base64,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" alt="">
+            </div>
+            <div class="tl_canVas">
+              <canvas id="canVasa" width="340" height="340"></canvas>
+              <canvas id="canVasb" width="340" height="340"></canvas>
+              <div class="tl_canVasa">
+            <ul>
+              <li>总额度</li>
+              <li class="">最高15万</li>
+              <li>可用额度<span>0.00</span></li>
+              <li><span>马上开卡</span></li>
+            </ul>
+          </div>
+          <div class="tl_indexQiubc">
+            <div class="tl_indexQiub">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAXCAMAAAA4Nk+sAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACQUExURUxpcd/f3/r6+v///5OTk/v7++Tk5AoKCv7+/v////f39+bm5vv7+8XFxeTk5O3t7ZycnO7u7vPz8/7+/v////r6+v///////6Ghof39/f////9ja//+/v/z9P/U1/9+hf/Ex/9wd/+GjP/t7v+Lkf/5+v9pcf/P0f+Qlv/j5f/Iy/+4vP+usv/c3v+lqf+TmcGCtVQAAAAadFJOUwBKNAQIYFYD+e5NFyYnN3USg3n1Djsr4hPrxpt6bgAAAOpJREFUKM990NtigjAMBuAygaLCPOA8pC0CpcBwbu//dktKi3Bjbho+wh+AMVen9Jye2LJW0QWoLtFqpuc1+Fqnk25gXhunH3TR/ZUGjKb2c8ylhGdTdRKevzYnJI6wK2rRazpsTERMw40QDwOgCss31C01Almq4dtt3bqFyD9GPQo5Mi79ctxoqZWbDl7T7YCnmqZ9trhjhAvPcGeO5528LvXIOUc+YlNar3r7OXAkDhMA2dWtDSJNrtz/KVM2VVv1g30PbpntFn9w55TxOJkwib1i7Q/jjfywnyk+EGZBHGQhXyi6L/au/gFCyyJlTG+i5QAAAABJRU5ErkJggg==" alt="" class="tl_indexQiuba" style="display: inline; left: 129.443px; top: -94.0456px;">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAXCAMAAAA4Nk+sAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABFUExURUxpcf/x6//Grf/49fv7+/79/fn5+f/+/v////+ab//czP/Vw//Mtf/f0v/k2P++ov+wjvX19f/p4P+gd//n3ff39/+ngq3fixYAAAABdFJOUwBA5thmAAAAyUlEQVQoz32QCw6EIAxE+bRSC4KoeP+jLgXWsInZCQnwGIYWpbrIuTocqVn0yL1B4e4VP7zvMBo758gKtKUrINl2AoJdXegQ7ea19Yxy8evW3pt9T95vbtjbTDatVXfs6cvAkU/Bq9GHbItSEkYmdJzYDNzceruFnkFfMyadxL6P7IoVtEo41EqYWzTCwEc46GK0huVybv1Ab15eQykAltYPNg5s+jOum6sdpg/EDDh+FspDS3lozSl5kaZzXiZaOcIQql+hSP3XBz7oDBkg/Ms8AAAAAElFTkSuQmCC" alt="" id="tl_indexQiua" style="left: -129.443px; top: 94.0456px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <div class="method flex WankaMain">
+        <div class="cell_1 methodtake takeMoneys">
+          <p class="entr_img"></p>
+          <p>现金分期</p>
+          <p>额度越用越高</p>
+        </div>
+        <div class="cell_1 methodtake scbyStages">
+          <p class="entr_img"></p>
+          <p>分期商城</p>
+          <p>正品低息</p>
+        </div>
+        <div class="cell_1 methodtake hellpStills">
+          <p class="entr_img"></p>
+          <p>信用卡代还</p>
+          <p>超低利息</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
