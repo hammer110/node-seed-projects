@@ -17,6 +17,7 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "ejs": "^2.5.7",
+    "eslint-plugin-node": "^5.1.1",
     "express": "~4.15.2",
     "jade": "~1.11.0",
     "log4js": "^2.3.3",
